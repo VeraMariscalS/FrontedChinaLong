@@ -1,0 +1,14 @@
+body
+{
+	font-size: 16px;
+	max-width: 1024px;
+	margin: 0px auto;
+}
+
+header{
+	background: #4A2014;
+	padding-bottom: 30px;
+}
+header	span{
+margin-left: 400px;
+}
