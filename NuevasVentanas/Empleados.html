@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-<head >
+<head>
 	<meta charset="utf-8">
-	<title>Restaurant</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-
+	<title>Emplados</title>
+	 <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 <body>
-    <header>
+<header>
        <span class="letraGrande  amarillo">CHINA LONG</span> <br>
        <span class="letraMediana letraComing amarillo">"Donde todo sabe mejor"</span>
     </header>
@@ -27,33 +26,26 @@
     		<span class="letra letraPequeña nito letraBlanca naranja"> Gestionar Datos</span>
     		  <br>
     		     <span class ="letraMediana">
-    		   <input type="button" value="        Clientes        " class="ge">
+    		  <a href="../index.html"><input type="button" value="        Clientes        " class="ge"></a>
     		       <br>
-    		 <a href="NuevasVentanas/Empleados.html"><input type="button" value="      Empleados      " class="ge"></a>
+    		       <input type="button" value="      Empleados      " class="ge">
     		       <br>
-    		       <a href="NuevasVentanas/Mesas.html"><input type="button" value="         Mesas          " class="ge"></a>
+    		       <a href="Mesas.html"><input type="button" value="         Mesas          " class="ge"></a>
     		       <br>
     		       <input type="button" value="Bebidas y Platillos" class="ge">
     		       <br>
     		     </span>
-              
-    	</article>
-    	
-    	 
-    	 	
-    	 
-    	<article id="secc01art02">
+        </article>
+   
+
+    <article id="secc01art02">
     		
-              <input type="button" value="Alta De Clientes" class="b">
-       <a href="NuevasVentanas/ListaDeClientes.html"><input type="button" value="Lista De Clientes" class="b"></a> 
+              <input type="button" value="Alta de empleados" class="b">
+            <a href="ListaDeEmpleados.html">  <input type="button" value="Lista de Empleados" class="b"></a>
                
               <div class="w">
-              <span  class="miniBanner letraBlanca srh">Alta de Clientes</span>
-              <div>
-              <nav>
-    		
-
-			<ul>
+              <span  class="miniBanner letraBlanca srh">Alta de Empleados </span>
+          <ul>
 				<li>Nombre:</li>
 				<input type="text" name="nombre"> 
 				<li>A. Paterno:</li>
@@ -61,19 +53,28 @@
 				<li>A. Marteno:</li>
 				<input type="text" name="a.materno">
 				<li>Teléfono:</li>
-				<input type="text" name="telefono">
+				<input type="text" name="telefono"><li>Domocilio:</li>
+				<input type="text" name="Domocilio">
+				
+				
 			</ul>
 			<ul>
+
+				<li>Correo:</li>
+				<input type="text" name="Correo">
+				<li>turno:</li>
+				<input type="number" value="1" name="turno">
 				<li>Fecha De Nacimiento</li>
 				<input type="date" name="fecha">
-                <li>RFC:</li>
-                <input type="text" name="rfc">
+                <li>Sueldo:</li>
+                <input type="number" value="1000"  size="500" name="sueldo">
 			</ul>
 			 
     		       <input type="button" value="Guardar" class="g">  
               
 		     </nav>
-		 </article>
-    </section>
+
+    </article>
+     </section>
 </body>
 </html>
