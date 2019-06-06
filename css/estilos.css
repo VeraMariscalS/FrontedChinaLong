@@ -1,4 +1,3 @@
-
 <style>
 @import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
@@ -38,6 +37,8 @@ header{
 {
 	margin-top: 50px;
 	width: 600px;
+	height: 200px;
+	border-radius: 7px;
 }
 
 #secc01art01
@@ -46,6 +47,7 @@ header{
 	margin-right: 100px;
 	padding-bottom: 100px;
 	vertical-align: top;
+	border-radius: 7px;
 }
 #secc01art02 nav ul li{
 	color:white;
@@ -59,16 +61,17 @@ header{
 #secc01art02 ul
 {
 	list-style: none;
-
 }
+
 #secc01art02 span {
 align-items: center;
 }
 
+
 #secc01art01 input[type="button"]{
 	
 	background: white;
-	border-radius: 3px;
+	border-radius: 6px;
 	color: #87CEFA; 
 	padding: 5px 8px;
     vertical-align: center;
@@ -82,7 +85,6 @@ align-items: center;
 	border-color: white;
 	width: 49%;
 	vertical-align: top;
-
 }
 
 #secc01art02{
@@ -93,49 +95,78 @@ margin-top:100px;
 {
 	color: #F7C50F
 }
+
 .b{
 	margin-top: -105px;
 	margin-left: 2px;
 	padding: 10px;
-	}
+ }
+
 .g{
 	margin-left: 10px;
 	margin-bottom: 10px;
-
 }
+
 .naranja
 {
 	background: #FF6017;
 }
+
 .letraBlanca{
 color: white;
 }
+
 .letraComing{
 	font-family: 'Coming Soon', cursive;
 }
+
 .letraLobster{
 	font-family: 'Lobster', cursive;
 }
 
 .letraGrande{
-font-size: 4.2em;
+font-size: 4em;
 }
+
 .letraMediana{
 	font-size: 2em;
-
-
 }
+
 .miniBanner{
 	font-size: 2em;
-	margin-bottom: -90px;
     background: #FF6017;
     padding-left: 196px;
 	padding-right: 197px;
-
+	
+	
+   }
+   .w{
+   	margin-top: -84px;
    }
 
 .letraPequeña{
 	font-size: 1em;
+	
+
+}
+.letra{
+	background: #FF6017;
+	padding-right: 24px;
+	padding-left: 24px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-radius: 5px;
+	margin-top: 10px;
+	
+
+}
+.ge{
+   margin-bottom: -12px;
+   margin-top: -10px;
+   height: 40px;
+   width: 150px;
+
+
 }
 
 
