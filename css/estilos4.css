@@ -1,6 +1,5 @@
 <style>
-@import url('https://fonts.googleapis.com/css?family=Coming+Soon|UnifrakturCook&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Old+Standard+TT&display=swap');
 </style>
 *{
 	border: 0;
@@ -21,6 +20,14 @@ header{
 	padding-top: 20px;
 	text-align: center;
 }
+table{
+	display: inline-block;
+  
+}
+td{
+	padding-left: 50px;
+	padding-right: 50px;
+}
 
 #secc01art02 ul{
 	display: inline-block;
@@ -33,6 +40,7 @@ header{
 	text-align: center;
 }
 
+
 #secc01art02
 {
 	margin-top: 50px;
@@ -43,6 +51,7 @@ header{
 .libre{
 	margin-top: -65px;
 	}
+
 .pruebas{
 background:#545157;
 margin-top: 130px;
@@ -128,7 +137,7 @@ color: white;
 }
 
 .letraLobster{
-font-family: 'UnifrakturCook', cursive;
+font-family: 'Old Standard TT', serif;
 }
 
 .letraGrande{
@@ -176,18 +185,24 @@ font-size: 4em;
 
 }
 .pedi{
+	font-weight: bolder;
 margin-left: 260px;
 margin-top: 20px;
-background:#85808A;
+background:#949492;
 border-radius: 6px;
 }
 .parc{
-background:blue;
+	font-weight: bolder;
+background: #23BAC4;
 border-radius: 6px;
 }
 .cob{
+	font-weight: bolder;
 background:#ff6017;
 border-radius: 6px;
 }
-
+.letraGris{
+	color: lightgray;
+	font-size: 2em;
+}
 

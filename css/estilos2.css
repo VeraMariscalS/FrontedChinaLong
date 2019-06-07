@@ -1,6 +1,5 @@
 <style>
-@import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Old+Standard+TT&display=swap');
 </style>
 *{
 	border: 0;
@@ -127,7 +126,7 @@ color: white;
 }
 
 .letraLobster{
-	font-family: 'Lobster', cursive;
+font-family: 'Old Standard TT', serif;
 }
 
 .letraGrande{
